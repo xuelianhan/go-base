@@ -1,5 +1,8 @@
 package array
 
+/*
+LC1207
+*/
 func uniqueOccurrences(arr []int) bool {
      freq_map := frequency_map(arr)
      set := make(map[int]bool)
